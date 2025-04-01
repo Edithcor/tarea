@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #002F5E, #005F99);
+    color: white;
+    text-align: center;
+}
+
+/* Estilos para la pantalla de inicio de sesión */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.login-container input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background: #00C853;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #00A040;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Estilos del contenido después del login */
+header {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.ejemplo {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.ejemplo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
